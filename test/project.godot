@@ -15,6 +15,12 @@ run/main_scene="res://node_2d.tscn"
 config/features=PackedStringArray("4.0")
 config/icon="res://icon.png"
 
+[display]
+
+window/size/viewport_width=1423
+window/size/viewport_height=926
+window/stretch/scale=0.81
+
 [rendering]
 
 environment/defaults/default_environment="res://default_env.tres"

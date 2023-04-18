@@ -1,12 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://cictl88hgphfp"]
+[gd_scene load_steps=3 format=3 uid="uid://dgtsmk0wm8fea"]
 
-[ext_resource type="VideoStream" path="res://bigbuckbunny.webm" id="1_5h5ny"]
+[ext_resource type="VideoStream" path="res://output5.webm" id="1_eue67"]
+[ext_resource type="Texture2D" uid="uid://bbomlwwp433l6" path="res://MicrosoftTeams-image+(68).png" id="2_dgw8r"]
 
 [node name="Node2D" type="VideoStreamPlayer"]
 anchors_preset = -1
 anchor_right = 0.865
 anchor_bottom = 0.775
-offset_right = 27.5199
-offset_bottom = 98.8
-stream = ExtResource("1_5h5ny")
+offset_right = 2843.52
+offset_bottom = 1657.8
+scale = Vector2(0.351519, 0.37269)
+stream = ExtResource("1_eue67")
 autoplay = true
+expand = true
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(497.839, 1097.76)
+texture = ExtResource("2_dgw8r")
